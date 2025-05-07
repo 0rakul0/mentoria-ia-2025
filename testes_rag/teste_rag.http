@@ -1,0 +1,57 @@
+### Pergunta 1 - Requisitos para engenheiro
+POST http://127.0.0.1:8000/search
+Content-Type: application/json
+Accept: application/json
+
+{
+  "query": "Quais são os requisitos para alguém exercer a profissão de engenheiro no Brasil segundo o Decreto nº 23.569?",
+  "limit": 5
+}
+
+###
+
+### Pergunta 2 - Registro obrigatório
+POST http://127.0.0.1:8000/search
+Content-Type: application/json
+Accept: application/json
+
+{
+  "query": "Qual documento substitui o diploma para o exercício legal da profissão segundo o Decreto?",
+  "limit": 5
+}
+
+###
+
+### Pergunta 3 - Competência do arquiteto
+POST http://127.0.0.1:8000/search
+Content-Type: application/json
+Accept: application/json
+
+{
+  "query": "Quais são as competências legais atribuídas aos arquitetos?",
+  "limit": 5
+}
+
+###
+
+### Pergunta 4 - Penalidade por exercício ilegal
+POST http://127.0.0.1:8000/search
+Content-Type: application/json
+Accept: application/json
+
+{
+  "query": "Quais são as penalidades previstas para o exercício ilegal da profissão?",
+  "limit": 5
+}
+
+###
+
+### Pergunta 5 - Validade de diplomas estrangeiros
+POST http://127.0.0.1:8000/search
+Content-Type: application/json
+Accept: application/json
+
+{
+  "query": "Um diplomado por uma escola estrangeira pode atuar como engenheiro no Brasil? Quais são as condições?",
+  "limit": 5
+}
